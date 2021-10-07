@@ -65,3 +65,4 @@ scipy==1.6.0
 seaborn==0.11.1
 sklearn==0.0
 scikit-multilearn==0.1.0
+xgboost==1.5.0
