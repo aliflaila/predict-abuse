@@ -1,0 +1,6 @@
+pip3
+pandas
+numpy
+bs4
+flask
+sklearn
