@@ -1,7 +1,5 @@
 from flask import Flask, jsonify, request
 import joblib
-from bs4 import BeautifulSoup
-import re
 import flask
 # https://www.tutorialspoint.com/flask
 app = Flask(__name__)
