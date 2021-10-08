@@ -29,7 +29,10 @@ def predict():
         prediction.append('Ogling')
     if x[0,2]:
         prediction.append('Groping')
-    return flask.render_template('app.html', prediction_text='Predicted categories of abuse are {}'.format(prediction))
+    if len(prediction) == 0:
+        return flask.render_template('app.html', prediction_text='It is not an abuse statement')
+    else:
+        return flask.render_template('app.html', prediction_text='Predicted categories of abuse are {}'.format(prediction))
     #return jsonify(prediction)
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
