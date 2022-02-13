@@ -6,4 +6,6 @@ The project aims to leverage this information and predict the type of abuse by t
 
 The live demo of the deployed app can be found here: https://youtu.be/9_YYODlDHjk
 
-The blog detailing the approach can be found here: 
+The deployed app can be found here: https://predict-abuse.herokuapp.com/index
+
+The blog detailing the approach can be found here: (in progress)
